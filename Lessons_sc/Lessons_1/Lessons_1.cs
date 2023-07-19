@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Lessons_1
 {
-    internal class Program
+    internal class Types
     {
         static void Main(string[] args)
         {
