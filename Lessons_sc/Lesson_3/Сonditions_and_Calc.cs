@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace Lessons_1
+namespace Lesson_3
 {
     internal class Сonditions_and_Calc
     {
