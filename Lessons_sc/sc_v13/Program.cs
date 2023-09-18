@@ -1,10 +1,32 @@
-﻿namespace sc_v13
+﻿namespace sc_v14
 {
+    // 13ый - операторы сравнения, опускаем
+    //IF ELSE
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            bool isInfected = true;
+
+            if (isInfected) 
+            {
+                Console.WriteLine("Персонаж инфецирован!");
+            }
+            else 
+            {
+                Console.WriteLine("Персонаж здоров!");
+            }
+
+            int a = 5;
+
+            if (a == 5)
+            {
+                Console.WriteLine($"а равно {a}");
+            }
+            else 
+            {
+                Console.WriteLine($"а не равно {a}");
+            }
         }
     }
 }
