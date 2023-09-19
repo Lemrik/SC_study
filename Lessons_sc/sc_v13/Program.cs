@@ -1,6 +1,6 @@
-﻿namespace sc_v14
+﻿namespace sc_v13
 {
-    // 13ый - операторы сравнения, опускаем
+    // 12ый - операторы сравнения, опускаем
     //IF ELSE
     internal class Program
     {
