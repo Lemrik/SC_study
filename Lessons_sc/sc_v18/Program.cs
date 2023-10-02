@@ -8,12 +8,11 @@
             Console.WriteLine("Введите лимит");
             int limit = int.Parse(Console.ReadLine());
 
-           for (int i = 0; i < limit; i++)
+            for (int i = 0; i < limit; i++)
             {
                 Console.WriteLine(i);
 
-                System.Threading.Thread.Sleep(100);
-                break;
+                Thread.Sleep(100);
             }
         }
     }
