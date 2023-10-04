@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sc_v20-21", "sc_v20\sc_v20-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sc_v22", "sc_v22\sc_v22.csproj", "{CBD4FC94-3D3A-4095-9CEA-DEDC250832EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc_v22_1", "sc_v22_1\sc_v22_1.csproj", "{A9775044-6D4F-4B03-BA35-7C43EBAED8F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sc_v22_1", "sc_v22_1\sc_v22_1.csproj", "{A9775044-6D4F-4B03-BA35-7C43EBAED8F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz_sc_22", "dz_sc_22\dz_sc_22.csproj", "{E2FBD737-EA1E-49A8-B3F3-4CA4FFD68944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dz_sc_22", "dz_sc_22\dz_sc_22.csproj", "{E2FBD737-EA1E-49A8-B3F3-4CA4FFD68944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc_v23", "sc_v23\sc_v23.csproj", "{C7D40AED-2A88-4627-A179-FEBE46099336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{E2FBD737-EA1E-49A8-B3F3-4CA4FFD68944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2FBD737-EA1E-49A8-B3F3-4CA4FFD68944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2FBD737-EA1E-49A8-B3F3-4CA4FFD68944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D40AED-2A88-4627-A179-FEBE46099336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D40AED-2A88-4627-A179-FEBE46099336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D40AED-2A88-4627-A179-FEBE46099336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D40AED-2A88-4627-A179-FEBE46099336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
