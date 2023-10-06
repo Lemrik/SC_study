@@ -33,7 +33,7 @@
             }
 
             // цикл for в обратном порядке
-            int j = int.Parse(Console.ReadLine());
+            //int j = int.Parse(Console.ReadLine());
             for (; j >= 0; j--)
             {
                 Console.WriteLine(j);
