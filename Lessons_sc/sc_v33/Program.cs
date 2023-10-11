@@ -5,14 +5,31 @@
     {
         static void Main(string[] args)
         {
+
             int[][] myArray = new int[3][];
-            int[,] myArray2 = new int[3,5];
+            // для зубчатых массивов нужно выделять оперативную память
+            myArray[0] = new int[5];
+            myArray[1] = new int[2];
+            myArray[2] = new int[10];
 
-            int myArrRank = myArray.Rank;
-            int myArr2Rank = myArray2.Rank;
+            Random random = new Random();
 
-            int myArrLength = myArray.Length;
-            int myArr2Length = myArray2.Length;
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                for (int j = 0; j < myArray[i].Length;j++)
+                {
+                    myArray[i][j] = random.Next(100);
+                }
+            }
+
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                for (int j = 0; j < myArray[i].Length; j++)
+                {
+                    Console.Write(myArray[i][j] + "\t");
+                }
+                Console.WriteLine();
+            }
 
         }
     }
